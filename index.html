@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name=”viewport” content=”width=device-width,initial-scale=1″>
+        <title>Brightcove Video Element demo</title>
+
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP&display=swap');
+
+          body {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-around;
+            align-items: center;
+          
+            background-color: #111;
+            color: #fff;
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+          }
+
+          media-controller {
+            height: 480px;
+            aspect-ratio: 16 / 9;
+          }
+
+          @media screen (width <= 900px) {
+            media-controller {
+              height: 320px;
+            }
+          }
+        </style>
+
+        <script type="importmap">
+          {
+            "imports": {
+              "super-media-element": "https://cdn.jsdelivr.net/npm/super-media-element@1.2/+esm",
+              "videojs-video-element": "https://cdn.jsdelivr.net/npm/videojs-video-element@1.0/+esm"
+            }
+          }
+        </script>
+
+        <script type="module" src="https://cdn.jsdelivr.net/npm/media-chrome@1/+esm"></script>
+        <script type="module" src="./brightcove-video-element.js"></script>
+    </head>
+
+    <body>
+        <h1>Brightcove Video Element demo</h1>
+
+        <media-controller>
+          <brightcove-video 
+            slot="media" 
+            src="https://players.brightcove.net/1752604059001/Nynfq6Yde_default/index.html?videoId=4029697544001" 
+          ></brightcove-video>
+          <media-loading-indicator slot="centered-chrome" noautohide></media-loading-indicator>
+          <media-control-bar>
+            <media-play-button></media-play-button>
+            <media-seek-backward-button seekoffset="5"></media-seek-backward-button>
+            <media-seek-forward-button seekoffset="5"></media-seek-forward-button>
+            <media-mute-button></media-mute-button>
+            <media-volume-range></media-volume-range>
+            <media-time-range></media-time-range>
+            <media-time-display showduration></media-time-display>
+            <media-playback-rate-button></media-playback-rate-button>
+            <media-fullscreen-button></media-fullscreen-button>
+          </media-control-bar>
+        </media-controller>
+    </body>
+</html>

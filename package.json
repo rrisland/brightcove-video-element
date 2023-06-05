@@ -1,0 +1,33 @@
+{
+  "name": "brightcove-video-element",
+  "version": "0.1.0",
+  "description": "A custom element for Brightcove Player (Video.js) with an API that matches the <video> API.",
+  "type": "module",
+  "main": "brightcove-video-element.js",
+  "exports": "./brightcove-video-element.js",
+  "author": "rrisland",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rrisland/brightcove-video-element.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "videojs-video-element": "^1.0.3"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [
+    "brightcove",
+    "video",
+    "player",
+    "web component",
+    "custom element"
+  ]
+}
