@@ -8,7 +8,7 @@
 
 ## Install
 
-We are testing npm publish in another repository.
+We are testing npm publish.
 Please wait for a while for installation.
 
 ## Related
