@@ -32,7 +32,7 @@ Import in your app javascript (e.g. src/App.js):
 import 'brightcove-video-element';
 ```
 
-Optionally, you can load the script directly from a CDN using [JSDelivr](https://www.jsdelivr.com/):
+Optionally, you can load the script directly from a CDN using [ESM Run](https://www.jsdelivr.com/?docs=esm):
 
 <!-- prettier-ignore -->
 ```html
