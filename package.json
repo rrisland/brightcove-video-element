@@ -7,18 +7,15 @@
   "exports": "./brightcove-video-element.js",
   "author": "rrisland",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/rrisland/brightcove-video-element.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "dependencies": {
-    "videojs-video-element": "^1.0.3"
+  "homepage": "https://github.com/rrisland/brightcove-video-element#readme",
+  "bugs": {
+    "url": "https://github.com/rrisland/brightcove-video-element/issues"
   },
   "scripts": {
     "test": "exit 0"
+  },
+  "dependencies": {
+    "videojs-video-element": "^1.0.3"
   },
   "keywords": [
     "brightcove",
