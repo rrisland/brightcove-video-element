@@ -33,6 +33,6 @@ jobs:
         with:
           # this line is required for the setup-node action to be able to run the npm publish below.
           registry-url: 'https://registry.npmjs.org'
-      - run: npm install
+      - run: npm ci
       - run: npm test
       - run: npm publish --access=public
