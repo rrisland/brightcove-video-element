@@ -3,6 +3,9 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 
+## Example ([Codepen](https://codepen.io/rrisland/pen/BaqXvWg))
+
+
 ## Install
 
 We are testing npm publish in another repository.
