@@ -14,7 +14,7 @@ This project is built by extending [`<videojs-video>`](https://github.com/luwes/
 
 <!-- prettier-ignore -->
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/npm/brightcove-video-element@0/+esm"></script>
+<script type="module" src="https://esm.run/brightcove-video-element"></script>
 <brightcove-video controls src="https://players.brightcove.net/1752604059001/Nynfq6Yde_default/index.html?videoId=4029697544001"></brightcove-video>
 ```
 
@@ -36,7 +36,7 @@ Optionally, you can load the script directly from a CDN using [JSDelivr](https:/
 
 <!-- prettier-ignore -->
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/npm/brightcove-video-element@0/+esm"></script>
+<script type="module" src="https://esm.run/brightcove-video-element"></script>
 ```
 
 This will register the custom elements with the browser so they can be used as HTML.
