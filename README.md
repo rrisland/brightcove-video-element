@@ -4,18 +4,9 @@
 
 
 ## Install
-```bash
-npm install brightcove-video-element
-```
 
-```js
-import 'brightcove-video-element';
-```
-
-```html
-<script type="module" src="~~~"></script>
-```
-
+We are testing npm publish in another repository.
+Please wait for a while for installation.
 
 ## Related
 
