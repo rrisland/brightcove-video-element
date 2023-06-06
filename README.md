@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 A [custom element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) for Brightcove Player (Video.js) with an API that matches the [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) API.  
-This project is based on [`<videojs-video>`](https://github.com/luwes/videojs-video-element).
+This project is built by extending [`<videojs-video>`](https://github.com/luwes/videojs-video-element).
 
 - 🏄‍♂️ Compatible [`HTMLMediaElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement) API
 - 🕺 Seamlessly integrates with [Media Chrome](https://github.com/muxinc/media-chrome)
@@ -44,6 +44,7 @@ This will register the custom elements with the browser so they can be used as H
 ## Related
 
 - [Media Chrome](https://github.com/muxinc/media-chrome) Your media player's dancing suit. 🕺
+- [`<videojs-video>`](https://github.com/luwes/videojs-video-element) A custom element for Video.js.
 - [`<youtube-video>`](https://github.com/muxinc/youtube-video-element) A custom element for the YouTube player.
 - [`<vimeo-video>`](https://github.com/luwes/vimeo-video-element) A custom element for the Vimeo player.
 - [`<spotify-audio>`](https://github.com/luwes/spotify-audio-element) A custom element for the Spotify player.
