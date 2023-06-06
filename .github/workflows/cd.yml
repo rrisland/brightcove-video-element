@@ -20,12 +20,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     environment: production
-    permissions:
-      packages: write
-      contents: read
 
     env:
-      NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - uses: actions/checkout@v3
@@ -34,8 +32,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           # this line is required for the setup-node action to be able to run the npm publish below.
-          registry-url: https://npm.pkg.github.com/
-      - uses: fregante/setup-git-user@v1
-      - run: npm ci
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm install
       - run: npm test
-      - run: npm publish
+      - run: npm publish --access=public

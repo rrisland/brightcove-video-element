@@ -1,5 +1,5 @@
 {
-  "name": "@rrisland/brightcove-video-element",
+  "name": "brightcove-video-element",
   "version": "0.1.0",
   "description": "A custom element for Brightcove Player (Video.js) with an API that matches the <video> API.",
   "type": "module",
