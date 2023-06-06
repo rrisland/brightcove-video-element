@@ -2,7 +2,7 @@
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-A custom element for Brightcove Player (Video.js) with an API that matches the [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) API.
+A custom element for Brightcove Player (Video.js) with an API that matches the [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) API.  
 This project is based on `<videojs-video>`.
 
 ## Example ([Codepen](https://codepen.io/rrisland/pen/BaqXvWg))
