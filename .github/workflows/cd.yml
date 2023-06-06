@@ -36,6 +36,6 @@ jobs:
           # this line is required for the setup-node action to be able to run the npm publish below.
           registry-url: https://npm.pkg.github.com/
       - uses: fregante/setup-git-user@v1
-      - run: npm install
+      - run: npm ci
       - run: npm test
       - run: npm publish
